@@ -1,0 +1,17 @@
+tags:
+  - Tweet_text
+summary: Input text to be cleaned
+description: API bisa menghasilkan output berupa teks yang sudah di-cleansing  
+post:  
+parameters:
+  - name: text
+    in: formData
+    required: true
+    type: string    
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error

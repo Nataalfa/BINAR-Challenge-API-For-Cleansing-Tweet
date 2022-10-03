@@ -1,0 +1,14 @@
+tags:
+  - Tweet
+summary: Tweet yang sudah di cleansing
+description: Indonesian Abusive and Hate Speech Twitter Text yang sudah di cleansing   
+get:
+  summary: List tweet yang sudah di cleansing
+  description: 3105 Tweet yang sudah di cleansing
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error  

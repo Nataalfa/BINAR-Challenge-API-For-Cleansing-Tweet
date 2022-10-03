@@ -1,0 +1,14 @@
+tags:
+  - name: Home
+summary: homepage
+description: home  
+get:
+  summary: homepage
+  description: home
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
